@@ -6,7 +6,17 @@
 
 
 
-1. Download Dataset (3GB+)
+1. Bikin virtual environment
+```bash
+  python -m venv venv
+  venv\Scripts\activate
+```
+2. install requirements
+```bash
+  pip install -r requirements.txt
+```
+
+3. Download Dataset (3GB+)
 
 ```bash
   git clone https://github.com/pedropro/TACO.git
@@ -14,7 +24,7 @@
   python3 download.py / py download.py
 ```
 
-2. Training YOLO
+4. Training YOLO
 
 ```bash
   pip install ultralytics
